@@ -12,7 +12,7 @@
 body {
   width: 75%;
   max-width: 670px;
-  margin:auto;
+  margin: auto;
   background: #fafafa;
   color: #333;
   font-family: 'Libre Baskerville', serif;
@@ -104,9 +104,11 @@ Nav a:hover {border-bottom: none; color: rgba(41,86,98,100);
 /*----- BLOCKQUOTE -----*/
 
 blockquote {
-  padding: 1em 0 4em 0;
+  padding: 1em 0 2em 0;
   font-size: 1.75em;
   line-height: 1.3;
+  hanging-punctuation: first;
+  text-indent: -0.5em;
 }
 blockquote cite {
   font-size: 0.75em;
@@ -132,7 +134,7 @@ footer {
 hr {
   margin: 1em 0;
   height: 1px;
-  background-color: #c06;
-  color: rgba(41,86,98,100);
+  background-color: rgba(93, 197, 226, 100);
+  color: rgba(93, 197, 226, 100);
   border: 0 none;
 }
