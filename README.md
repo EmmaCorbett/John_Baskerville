@@ -9,6 +9,8 @@
 
 [John Baskerville 4](https://emmacorbett.github.io/john_baskerville/john-baskerville4.html)  Added fourth html page (Monday 19th November 2018)
 
+[John Baskerville 5](https://emmacorbett.github.io/john_baskerville/john-baskerville5.html)  Added fifth html page (Monday 26th November 2018)
+
 ## Home
 [Type History - List of Typefaces  1](https://emmacorbett.github.io/john_baskerville/list_of_type_faces.html)  Added first html page (Monday 5th November 2018)
 
