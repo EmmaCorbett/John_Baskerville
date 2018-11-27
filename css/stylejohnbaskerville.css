@@ -22,7 +22,7 @@ body {
 
 h1, h2, h3 {
   font-weight: normal;
-  color: rgba(41,86,98,100);
+  color: rgba (69, 69, 69, 100);
   text-align: center
 }
 
@@ -49,25 +49,25 @@ h3 {
 blockquote {
   hanging-punctuation: first;
   text-indent: -0.01em;
-  color: rgba(94, 94, 94, 100);
+  color: darkgrey;
 }
 
 header h2 {
   font-style: italic;
   font-size: 2.35em;
   margin-top: 0.1em;
-  color: rgba(93, 197, 226, 100);
+  color: rgba(218, 63, 62, 100);
 }
 
 /*----- STYLING LINKS -----*/
 
 a {
-  color: rgba(55,117,134,100);
+  color: darkgrey;
   text-decoration: none:
 }
 
 a:hover {
-  color: rgba(93, 197, 226, 100);
+  color: rgba(218, 63, 62, 100);
   border-bottom: 1px dotted;
 }
 
@@ -79,7 +79,7 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
-  background-color: rgba(93, 197, 226, 100);
+  background-color: darkgrey;
   padding: 1em 0;
   font-size: 0.5em;
 }
@@ -95,11 +95,11 @@ nav ul li{
   margin: 20px
 }
 
-nav a:link {color: #fff}
+nav a:link {color: #fafafa;}
 
-nav a:visited {color: #fff}
+nav a:visited {color: rgba(218, 63, 62, 100)}
 
-Nav a:hover {border-bottom: none; color: rgba(41,86,98,100);
+Nav a:hover {border-bottom: none; color: black;}
 
 /*----- BLOCKQUOTE -----*/
 
@@ -134,7 +134,7 @@ footer {
 hr {
   margin: 1em 0;
   height: 1px;
-  background-color: rgba(93, 197, 226, 100);
-  color: rgba(93, 197, 226, 100);
+  background-color: rgba(218, 63, 62, 100);
+  color: rgba(218, 63, 62, 100);
   border: 0 none;
 }
