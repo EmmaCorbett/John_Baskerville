@@ -18,5 +18,7 @@
 
 [Type History 3](https://emmacorbett.github.io/john_baskerville/a_brief_history_of_type3.html)  Added third html page (Monday 19th November 2018)
 
+[Type History 4](https://emmacorbett.github.io/john_baskerville/a_brief_history_of_type4.html)  Added fourth html page (Monday 26th November 2018)
+
 ## Home 2
 [Baskerville Typographic Exercise](https://emmacorbett.github.io/john_baskerville/baskerville_typographic_exercise.html) Added first html page (Monday 26th November 2018)
