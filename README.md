@@ -24,4 +24,4 @@
 [Baskerville Typographic Exercise](https://emmacorbett.github.io/john_baskerville/baskerville_typographic_exercise.html) Added first html page (Monday 26th November 2018)
 
 ## Designer Essay
-[Designer Essay](https://emmacorbett.github.io/designer_essay.html) Added first html page (Thursday 29th November 2018)
+[Designer Essay](https://emmacorbett.github.io/john_baskerville/designer_essay.html) Added first html page (Thursday 29th November 2018)
