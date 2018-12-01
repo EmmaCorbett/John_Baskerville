@@ -8,7 +8,6 @@
 /*----- VERSION 1-----*/
 
 .Version-1 {
-       background:#fafafa;
        color:black;
        font-family: 'Libre Baskerville', serif;
        font-size:16px;
@@ -23,39 +22,44 @@ h3 {
    font-weight: normal;
    text-align: left;
    font-size: 1.000em;
-   margin-top:auto;
-   margin-bottom: auto;
+   margin-bottom: 25px;
  }
 
 h1 {
   font-weight: normal;
   text-align: left;
-  font-size:3.998em;
+  font-size: 45pt;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-weight: normal;
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   font-style: italic;
-  padding: 15px;
+  padding: 18px;
+  text-indent:-0.75em;
 }
 
 .baskerville {
-  font-size: 17px;
+  font-size: 14px;
   padding: 10px;
   line-height: 18pt;
+  text-indent: -0.5px;
 }
 p {
-  font-size: 15px;
+  font-size: 11.5px;
   padding: 10px;
   line-height: 15pt;
 }
 
-.first-letter {
-  font-size   : 3.26em;
-  line-height : 0.5;
-  margin      : 0
+.B:first-letter {
+  font-size  : 3.26em;
+  height: 30px;
+  line-height: 30pt;
+  position: relative;
+  float:left;
+  display: block;
 }
 
 /*>>> BLOCKQUOTE <<<*/
@@ -66,7 +70,7 @@ blockquote {
   color: rgba(94, 94, 94, 100);
   line-height: 20pt;
   font-style: italic;
-  font-size:20px;
+  font-size:17px;
   padding:15px;
 }
 
@@ -89,10 +93,28 @@ hr {
 
 /*----- VERSION 2 -----*/
 .Version-2 {
-       background:#fafafa;
        color:black;
-       font-family: 'Arvo', serif;
+       font-family: 'Open Sans', sans-serif;
        font-size:16px;
        font-weight:normal;
        line-height: 1.6em;
+ }
+
+ .uppercase {
+   text-transform: uppercase;
+ }
+.larger {
+  font-size: 14px;
+}
+/*-----VERSION 3------*/
+ .Version-3 {
+   color:black;
+   font-family: 'Arvo', serif;
+   font-size:16px;
+   font-weight:normal;
+   line-height: 1.6em;
+ }
+
+ .text {
+   font-size: 14px;
  }
