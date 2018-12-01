@@ -103,9 +103,16 @@ hr {
  .uppercase {
    text-transform: uppercase;
  }
+
 .larger {
   font-size: 14px;
 }
+
+.indent {
+  text-indent: 2em;
+  margin-top: -1.8em;
+}
+
 /*-----VERSION 3------*/
  .Version-3 {
    color:black;
