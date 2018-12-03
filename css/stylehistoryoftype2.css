@@ -3,8 +3,8 @@
 * {
   padding: 0;
   margin: 0;
-  font-size:20px;
   line-height: 1em;
+  font-size: 15px;
   }
 
 /*----- MAIN STYLING -----*/
@@ -20,49 +20,49 @@ body {
 
 /*----- TYPOGRAPHY -----*/
 
-h1, h2, h3 {
-  font-weight: normal;
-  color: rgba(127, 72, 0, 100);
-  text-align: center
-}
-
 p, li, blockquote {
   margin-bottom: 1.5em;
   line-height: 1.4;
+  font-size: 20px;
 }
 
 h1 {
-  font-size:3.998em;
-  margin-top: 1em;
+  font-size:50px;
+  margin-top: 2em;
   margin-bottom: 0.1em;
-  color: rgba(127, 72, 0, 100);
+  color: rgba(50, 50, 50, 100);
+  text-align: center;
 }
 
 h2 {
-  font-size: 2.827em;
+  font-size: 40px;
   margin: 1em 0;
-  color: rgba(255, 144, 0, 100);
+  color: rgba(98, 98, 98, 100);
+  text-align: center;
 }
 
 h3 {
-  font-size: 1.999em;
+  font-size: 30px;
+  text-align: center;
+  color:rgba(73, 73,73, 100);
 }
 
-blockquote {
-  hanging-punctuation: first;
-  text-indent: -0.01em;
-  color: rgba(94, 94, 94, 100);
+i {
+  font-size: 20px;
 }
 
+b {
+  font-size: 20px;
+}
 /*----- STYLING LINKS -----*/
 
 a {
-  color: rgba(255, 144, 0, 100);
+  color: #fafafa;
   text-decoration: none:
 }
 
 a:hover {
-  color: rgba(127, 72, 0, 100);
+  color: rgba(50, 50, 50, 100);
   border-bottom: 1px dotted;
 }
 
@@ -70,13 +70,12 @@ a:hover {
 
 nav {
   position: fixed;
-  top: 0;
-  left: 0;
-  margin: 0;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
   width: 100%;
-  background-color: rgba(255, 144, 0, 100);
+  background-color: rgba(73, 73,73, 100);
   padding: 1em 0;
-  font-size: 0.5em;
 }
 
 nav ul {
@@ -94,7 +93,7 @@ nav a:link {color: #fff}
 
 nav a:visited {color: #fff}
 
-Nav a:hover {border-bottom: none; color: rgba(127, 72, 0, 100);
+Nav a:hover {border-bottom: none; color:black;}
 
 /*----- BLOCKQUOTE -----*/
 
@@ -103,6 +102,7 @@ blockquote {
   font-size: 1.75em;
   line-height: 1.3;
   color:rgba(94, 94, 94, 100);
+  text-indent: -0.01em;
 }
 
 blockquote cite {
@@ -117,6 +117,38 @@ img {
   max-width: 100%
 }
 
+/* TABLE */
+
+table {
+  margin: auto;
+  display: table;
+  border-collapse:collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+caption {
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
+th{
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: rgba(73, 73,73, 100);
+}
+
+th, td {
+  padding: .8em;
+}
+
+table, td {
+  background: #d1d1d1;
+  border: 2px solid #fff;
+}
+
 /*----- FOOTER -----*/
 
 footer {
@@ -126,10 +158,39 @@ footer {
   padding: 2em 0 4em 0;
 }
 
+.connections {
+     position: relative;
+     margin: 0 auto;
+}
+
+.connections ul{
+  margin:0;
+  padding:0;
+}
+
+.connections li{
+  margin:0 15px;
+  padding:0;
+  list-style: none;
+  display: inline-block;
+}
+
+.connections img {
+  opacity:0.5;
+  border: none;
+  padding-left: 110px;
+}
+
+.connections a:hover img {
+  opacity: 1.0;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  transform:scale(1.1);
+}
+
 hr {
   margin: 1em 0;
   height: 1px;
-  background-color: #c06;
-  color: rgba(255, 144, 0, 100);
+  color: rgba(50, 50, 50, 100);
   border: 0 none;
 }
