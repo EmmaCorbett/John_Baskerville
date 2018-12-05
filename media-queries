@@ -1,0 +1,24 @@
+@media (max-width: 50 em) {
+
+  body {
+    margin: auto;
+    font-size: 115%;
+    width:90%;
+  }
+
+  article {
+    width:90%
+  }
+}
+ @media (max-width: 30em) {
+
+   *{background-color: coral;}
+   body {
+   margin:auto;
+   font-size: 120%;
+   width 90%
+ }
+
+ h1 {font-size: 3.25em}
+
+ blockquote {font-size:}
