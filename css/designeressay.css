@@ -1,20 +1,20 @@
 /* ------ CSS RESET ------*/
 
 * {
-  width:700px;
-  margin:auto;
-  font-size:10px;
+  padding: 0;
+  margin: 0;
+  font-size:20px;
   line-height: 1em;
-  text-align: left;
   }
 
 /*----- MAIN STYLING -----*/
 
   body {
-    width: 1000%;
-    max-width: 700px;
+    width: 75%;
+    max-width: 670px;
     margin: auto;
-    background-image: url("gridpaper.gif");
+    background-image: url("rectanglebackground.gif");
+    background-position: 50% 0.1%;
     color: #333;
     font-family:'Open Sans', sans-serif;
   }
@@ -22,27 +22,27 @@
 /*----- TYPOGRAPHY -----*/
 
 h1 {
-  font-size:18px;
-  margin-bottom: 1em;
+  font-size:25px;
+  margin-top: 10px;
+  padding-top: 10px;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 10px;
 }
 
 h2 {
-  font-size:14px;
+  font-size:20px;
   margin-bottom: 1em;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 10px;
+  padding-top: 102px;
 }
 
 h3 {
-  font-size:12px;
+  font-size:17px;
   margin-bottom: 1em;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 p {
@@ -50,6 +50,18 @@ p {
   line-height: 1.5;
   font-weight: normal;
   padding-top: 5px;
+  width:400px;
+  text-align: left;
+  margin-left: 0px;
+  font-size: 15px;
+}
+
+i {
+  font-size: 15px;
+}
+
+b {
+  font-size: 15px;
 }
 
 blockquote {
@@ -65,10 +77,41 @@ blockquote {
 img {
   display: block;
   margin: 0.5em auto;
-  padding-top: 15px;
   max-width: 20%
-
 }
+/*----- NAVIGATION -----*/
+
+nav {
+  position: absolute;
+  top: 105px;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: darkgrey;
+  padding: 1em 0;
+  font-size: 0.5em;
+}
+
+nav ul {
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px
+}
+
+nav a:link {
+  color:#fafafa;
+  font-size: 15px;
+}
+
+nav a:visited {color: rgba(218, 63, 62, 100)}
+
+Nav a:hover {border-bottom: none; color: black;}
+
 /*----- FOOTER -----*/
 
 footer {
