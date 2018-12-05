@@ -1,0 +1,61 @@
+/* ------ CSS RESET ------*/
+
+* {
+  width:900px;
+  margin:auto;
+  font-size:15px;
+  line-height: 1em;
+  }
+
+/*----- MAIN STYLING -----*/
+
+  body {
+    width: 75%;
+    max-width: 670px;
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+    font-family:'Open Sans', sans-serif;
+  }
+
+/*----- TYPOGRAPHY -----*/
+
+h1 {
+  font-size:30px;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size:23px;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size:18px;
+  margin-bottom: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 5px;
+}
+
+blockquote {
+  font-size:20px;
+  color: darkgrey;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 15px;
+}
