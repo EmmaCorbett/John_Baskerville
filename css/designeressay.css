@@ -13,11 +13,18 @@
     width: 75%;
     max-width: 670px;
     margin: auto;
-    background-image: url("rectanglebackground.gif");
+    background-image: url("gridpaper.gif");
     background-position: 50% 0.1%;
     color: #333;
     font-family:'Open Sans', sans-serif;
   }
+
+.container {
+  width: 80%;
+  padding: 0 10%;
+  background: white;
+
+}
 
 /*----- TYPOGRAPHY -----*/
 
@@ -27,30 +34,31 @@ h1 {
   padding-top: 10px;
   line-height: 1.5;
   font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 2px darkgrey;
 }
 
 h2 {
   font-size:20px;
-  margin-bottom: 1em;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 102px;
+  padding-top: 50px;
 }
 
 h3 {
   font-size:17px;
+  margin-top:10px;
   margin-bottom: 1em;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 0px;
 }
 
 p {
   margin-bottom: 1em;
   line-height: 1.5;
   font-weight: normal;
-  padding-top: 5px;
-  width:400px;
+  width:490px;
   text-align: left;
   margin-left: 0px;
   font-size: 15px;
@@ -64,32 +72,41 @@ b {
   font-size: 15px;
 }
 
+/* BLOCKQUOTE */
+
 blockquote {
   font-size:20px;
   color: darkgrey;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
   line-height: 1.5;
   font-weight: normal;
   padding-top: 15px;
 }
 
+cite{
+  color: darkgrey;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+
 /*----- IMAGES -----*/
 img {
-  display: block;
   margin: 0.5em auto;
-  max-width: 20%
+  max-width: 20%;
+  display: inline;
 }
 /*----- NAVIGATION -----*/
 
 nav {
-  position: absolute;
-  top: 105px;
-  left: 0;
-  margin: 0;
-  width: 100%;
+  /*position: absolute;*/
+  /* top: 115px; */
+  left: 0px;
+  width: 90%;
   background-color: darkgrey;
-  padding: 1em 0;
-  font-size: 0.5em;
+  padding: 20px;
+  margin-top: 50px;
+  /* margin-left: 290px; */
+  /* margin-right: 190px; */
 }
 
 nav ul {
@@ -100,12 +117,14 @@ nav ul {
 
 nav ul li{
   display: inline;
-  margin: 20px
+  margin: 20px;
 }
 
 nav a:link {
   color:#fafafa;
   font-size: 15px;
+  display: block;
+  text-align: center;
 }
 
 nav a:visited {color: rgba(218, 63, 62, 100)}
@@ -123,6 +142,7 @@ footer {
 .connections {
      position: relative;
      margin: 0 auto;
+     text-align: center;
 }
 
 .connections ul{
@@ -156,4 +176,12 @@ hr {
   background-color: rgba(218, 63, 62, 100);
   color: rgba(218, 63, 62, 100);
   border: 0 none;
+}
+
+.bibliography-container ul li a {
+  font-size: 15px;
+}
+
+.image-align {
+  text-align: center;
 }
