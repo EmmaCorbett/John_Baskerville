@@ -67,6 +67,15 @@ p {
   font-size: 15px;
 }
 
+.B:first-letter {
+  font-size  : 3.26em;
+  height: 30px;
+  line-height: 30pt;
+  position: relative;
+  float:left;
+  display: block;
+}
+
 i {
   font-size: 15px;
 }
@@ -75,6 +84,10 @@ b {
   font-size: 15px;
 }
 
+.indent {
+  text-indent: 2em;
+  margin-top: 0.5em;
+}
 /* BLOCKQUOTE */
 
 blockquote {
@@ -129,27 +142,55 @@ img {
   max-width: 100%;
   display: block;
   text-align: center;
-  margin: 50px 0px 0px 10px;
 }
 
 .image-align2 {
 display:block;
 text-align: center;
-max-width: 150%;
+max-width: 50%;
 }
 
 .posterimages {
-  max-width: 30%;
-  display:inline-block;
-  position: relative;
+  max-width: 100%;
   text-align: center;
 }
 
-.twoposters {
-  text-align: center;
-  display: inline-block;
-  margin-bottom: 20px;
+.poster6 {
+  width: 45%;
+  padding: 0px;
+  float:right;
+  margin-right: 5%;
 }
+
+.poster7 {
+  width: 45%;
+  padding: 0px;
+  float:right;
+  margin-right: 5%;
+}
+
+.jan {
+  max-width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.newtypography {
+  display: block;
+  text-align: center;
+}
+
+.poster10 { width: 45%;
+padding: 0px;
+float:right;
+margin-right: 5%;
+}
+
+.poster11 {
+width: 45%;
+padding: 0px;
+float:right;
+margin-right: 5%;}
 /*----- NAVIGATION -----*/
 
 nav {
@@ -182,17 +223,41 @@ nav a:link {
 
 a {
 font-size: 15px;
+line-height: 0px;
+color: darkgrey;
 }
 
-nav a:visited {color: rgba(218, 63, 62, 100)}
+a:hover {
+  color:red;
+}
+
+a:visited {
+  color:black;
+}
+
+nav a:visited {color: black}
 
 Nav a:hover {border-bottom: none; color: black;}
+
+.listone a:hover {color:red}
+
+.listtwo a:hover {color:green}
+
+.listthree a:hover {color:blue}
+
+.listfour a:hover {color:yellow}
+
+.listfive a:hover {color:orange}
+
+.listsix a:hover {color:purple}
+
+.listseven a:hover {color:black}
 
 /*----- FOOTER -----*/
 
 footer {
   text-align:center;
-  font-size: 15px;
+  font-size: 10px;
   line-height: 1.5em;
 }
 
@@ -235,6 +300,7 @@ hr {
   border: 0 none;
 }
 
-.bibliography-container a li ul {
+.bibliography-container {
   font-size: 15px;
+  border-top: 4px solid black;
 }
