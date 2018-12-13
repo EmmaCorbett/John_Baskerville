@@ -4,7 +4,7 @@
   padding: 0;
   margin-bottom: 15px;
   font-size:15px;
-  line-height: 10%;
+  line-height: 10px;
   }
 
 /*----- MAIN STYLING -----*/
@@ -30,7 +30,8 @@
 h1 {
   font-size:25px;
   margin-top: 10px;
-  padding-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 15px;
   line-height: 1.5;
   font-weight: normal;
   text-transform: uppercase;
@@ -68,7 +69,7 @@ p {
 }
 
 .B:first-letter {
-  font-size  : 3.26em;
+  font-size  : 4em;
   height: 30px;
   line-height: 30pt;
   position: relative;
@@ -105,7 +106,6 @@ cite {
   font-size: 13px;
   padding: 30px;
   margin-bottom: 30px;
-  margin-left: 40%;
 }
 
 /* SECTIONS */
@@ -218,6 +218,7 @@ nav ul li{
   line-height: 1em;
   font-size: 20px;
   margin: 20px;
+  list-style-type: square;
 }
 
 nav a:link {
@@ -228,9 +229,14 @@ nav a:link {
 }
 
 a {
-font-size: 15px;
-line-height: 10px;
+font-size: 10px;
 color: darkgrey;
+}
+
+.links {
+  font-size: 10px;
+  line-height: 10px;
+  list-style-type: none;
 }
 
 a:hover {
