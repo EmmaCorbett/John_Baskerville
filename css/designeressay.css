@@ -183,7 +183,8 @@ max-width: 50%;
   text-align: center;
 }
 
-.poster10 { width: 45%;
+.poster10
+{ width: 45%;
 padding: 0px;
 float:right;
 margin-right: 5%;
