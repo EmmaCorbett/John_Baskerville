@@ -231,7 +231,7 @@ nav a:link {
 
 a {
 font-size: 10px;
-color: black;
+color: darkgrey;
 margin:10px;
 line-height: 1.5;
 font-weight: normal;
@@ -244,7 +244,7 @@ margin-left: 0px;
   font-size: 10px;
   line-height: 10px;
   list-style-type: none;
-}
+  }
 
 a:hover {
   color:red;
