@@ -203,38 +203,6 @@ float:right;
 margin-right: 5%;}
 /*----- NAVIGATION -----*/
 
-/* nav {
-  left: 0px;
-  width: 100%;
-  background-color: darkgrey;
-  padding: 5px;
-  margin-top: 30px;
-  display:block;
-  text-align: center;
-}
-
-nav ul {
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 15px;
-}
-
-nav ul li{
-  display:block;
-  line-height: 1em;
-  font-size: 20px;
-  margin: 20px;
-  list-style-type: square;
-}
-
-nav a:link {
-  color:#fafafa;
-  font-size: 15px;
-  display: block;
-  text-align: center;
-/* } */
-
 a {
 font-size: 15px;
 color: darkgrey;
@@ -246,12 +214,6 @@ text-align: left;
 margin-left: 0px; */
 }
 
-/* .links { */
-  /* font-size: 10px;
-  line-height: 10px;
-  list-style-type: none; */
-  /* } */
-
 a:hover {
   color:red;
 }
@@ -259,27 +221,6 @@ a:hover {
 a:visited {
   color:black;
 }
-
-/* nav a:visited {color: black}
-
-Nav a:hover {border-bottom: none; color: black;}
-
-.listone a:hover {color:red
-}
-
-.listtwo a:hover {color:green}
-
-.listthree a:hover {color:blue}
-
-.listfour a:hover {color:yellow}
-
-.listfive a:hover {color:orange}
-
-.listsix a:hover {color:purple}
-
-.listseven a:hover {color:black}
-
-.top {font-size: 15px;} */ */
 
 /*----- FOOTER -----*/
 
