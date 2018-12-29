@@ -105,9 +105,9 @@ nav a:link {
   font-size: 15px;
 }
 
-nav a:visited {color: rgba(218, 63, 62, 100)}
+nav a:visited {color: black}
 
-Nav a:hover {border-bottom: none; color: red;}
+nav a:hover {border-bottom: none; color: red;}
 
 /*----- BLOCKQUOTE -----*/
 
