@@ -211,15 +211,11 @@ line-height: 1.5;
 font-weight: normal;
 width: 100%;
 text-align: left;
-margin-left: 0px; */
-}
-
-a:hover {
-  color:red;
+margin-left: 0px;
 }
 
 a:visited {
-  color:black;
+  color: darkgrey;
 }
 
 /*----- FOOTER -----*/
