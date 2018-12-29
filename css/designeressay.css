@@ -214,9 +214,9 @@ text-align: left;
 margin-left: 0px;
 }
 
-/* a:visited {
-  color: darkgrey;
-} */
+a:hover {
+  color:red; 
+}
 
 /*----- FOOTER -----*/
 
