@@ -79,6 +79,7 @@ nav {
   left: 0;
   margin: 0;
   width: 100%;
+  background-color: darkgrey;
   padding: 1em 0;
   font-size: 0.5em;
 }
@@ -95,13 +96,13 @@ nav ul li{
 }
 
 nav a:link {
-  color: black;
+  color: #404040;
   font-size: 15px;
 }
 
 nav a:visited {color: black;}
 
-nav a:hover {color: red;}
+nav a:hover {color: #DCBF7B;}
 
 /*----- BLOCKQUOTE -----*/
 
