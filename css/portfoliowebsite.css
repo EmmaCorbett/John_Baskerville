@@ -1,0 +1,211 @@
+/* ------ CSS RESET ------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size:20px;
+  line-height: 1em;
+  }
+
+/*----- MAIN STYLING -----*/
+
+body {
+  width: 75%;
+  max-width: 670px;
+  margin: auto;
+  background: #fafafa;
+  color: #333;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*----- TYPOGRAPHY -----*/
+
+p, li {
+  font-size: 18px;
+  margin-bottom: 1.5em;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+h1 {
+  font-size:3.998em;
+  margin-top: 1em;
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-weight: normal;
+  text-shadow: 6px 2px darkgrey;
+}
+
+h2 {
+  font-size: 2.827em;
+  margin: 1em 0;
+  text-align: center;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+header h2 {
+  font-style: italic;
+  font-size: 2.35em;
+  margin-top: 0.1em;
+  color: rgba(218, 63, 62, 100);
+}
+
+.firstparagraph {
+  font-size: 20px;
+}
+
+/*----- STYLING LINKS -----*/
+
+a {
+  color: darkgrey;
+  text-decoration: none:
+  padding: 15px;
+  font-size: 15px;
+}
+
+a:hover {
+  color: rgba(218, 63, 62, 100);
+  border-bottom: 1px dotted;
+}
+
+/*----- NAVIGATION -----*/
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  background-color: darkgrey;
+  padding: 1em 0;
+  font-size: 0.5em;
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li{
+  display: inline;
+  margin: 20px
+}
+
+nav a:link {
+  color: black;
+  font-size: 15px;
+}
+
+nav a:visited {color: black;}
+
+nav a:hover {color: red;}
+
+/*----- BLOCKQUOTE -----*/
+
+blockquote {
+  font-size: 20px;
+  line-height: 1.3;
+  text-indent: -0.5em;
+  color: darkgrey;
+}
+
+cite {
+  font-size: 17px;
+  padding: 15px;
+  line-height: 3;
+  color:darkgrey;
+}
+
+/*----- IMAGES -----*/
+img {
+  display: block;
+  margin: 0.5em auto;
+  padding-top: 15px;
+}
+
+/*----- TABLE -----*/
+
+table {
+  margin: auto;
+  display: table;
+  border-collapse:collapse;
+  border-spacing: 2px;
+  margin-bottom: 2em;
+}
+
+caption{
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+}
+
+th{
+  color:#fff;
+  text-transform: uppercase;
+  font-weight: normal;
+  text-align: left;
+  background: rgba(218, 63, 62, 100);
+}
+
+th, td {
+  padding: .8em;
+}
+
+table, td {
+  background: #d1d1d1;
+  border: 2px solid #fff;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+  text-align:center;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+
+.connections {
+     position: relative;
+     margin: 0 auto;
+}
+
+.connections ul{
+  margin:0;
+  padding:0;
+}
+
+.connections li{
+  margin:0 15px;
+  padding:0;
+  list-style: none;
+  display: inline-block;
+}
+
+.connections img {
+  opacity:0.5;
+  border: none;
+  padding-left: 110px;
+}
+
+.connections a:hover img {
+  opacity: 1.0;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  transform:scale(1.1);
+}
+
+hr {
+  margin: 1em 0;
+  height: 1px;
+  background-color: rgba(218, 63, 62, 100);
+  color: rgba(218, 63, 62, 100);
+  border: 0 none;
+}
