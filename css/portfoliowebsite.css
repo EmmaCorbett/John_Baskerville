@@ -13,8 +13,7 @@ body {
   width: 75%;
   max-width: 100%;
   margin: auto;
-  background: #fafafa;
-  color: #333;
+  background: #F3F3F3;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -159,43 +158,7 @@ table, td {
   border: 2px solid #fff;
 }
 
-/*----- FOOTER -----*/
-
-footer {
-  text-align:center;
-  font-size: 15px;
-  line-height: 1.5em;
-}
-
-.connections {
-     position: relative;
-     margin: 0 auto;
-}
-
-.connections ul{
-  margin:0;
-  padding:0;
-}
-
-.connections li{
-  margin:0 15px;
-  padding:0;
-  list-style: none;
-  display: inline-block;
-}
-
-.connections img {
-  opacity:0.5;
-  border: none;
-  padding-left: 110px;
-}
-
-.connections a:hover img {
-  opacity: 1.0;
-  border-bottom: none;
-  transition: all 0.3s ease-in-out;
-  transform:scale(1.1);
-}
+/*!--footer ---!*/
 
 hr {
   margin: 1em 0;
