@@ -19,7 +19,13 @@ body {
 
 #UIDesigner {
   text-align:center;
-  font-size: 41.4px; 
+  font-size: 41.4px;
+}
+
+.illustrationofme {
+  display:block;
+margin-left: 100px;
+
 }
 /*----- TYPOGRAPHY -----*/
 
