@@ -33,7 +33,7 @@
 [Portfolio Website](https://emmacorbett.github.io/john_baskerville/portfolio_website.html) Added first web page (Wednesday 27th March)
 
 ## Branding myself
-[Branding Myself] (https://emmacorbett.github.io/john_baskerville/portfolio-branding-casestudy.html) Added first web page (Wednesday 10th April)
+[Branding Myself](https://emmacorbett.github.io/john_baskerville/portfolio-branding-casestudy.html) Added first web page (Wednesday 10th April)
 
 ## IPhone Wallpapers
-[Branding Myself] (https://emmacorbett.github.io/john_baskerville/portfolio-wallpapers-casestudy.html) Added first web page (Wednesday 10th April)
+[Branding Myself](https://emmacorbett.github.io/john_baskerville/portfolio-wallpapers-casestudy.html) Added first web page (Wednesday 10th April)
