@@ -1,0 +1,127 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size:30px;
+  line-height: 1em;
+  }
+
+body {
+  margin: auto;
+  background: #F3F3F3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight:400;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #f3f3f3;
+background-color: #404040;
+width:100%;
+}
+
+  h2{
+    font-size: 40px;
+    font-weight:300;
+    text-align: center;
+    margin-top:40px;
+    margin-bottom: 40px;
+    color: #BABABA;
+  }
+
+    h3{
+      font-size: 35px;
+      font-weight:300;
+      text-align: left;
+      margin-left:5%;
+      margin-right:5%;
+      margin-top:20px;
+    }
+
+      h4{
+        font-size: 30px;
+        font-weight:300;
+        text-align: left;
+        color:#DCBF7B;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top:20px;
+        margin-bottom:20px;
+      }
+
+      h5{
+        font-size: 25px;
+        font-weight:300;
+        text-align: left;
+        color:#404040;
+        margin-left:5%;
+        margin-right:5%;
+        margin-top:20px;
+        margin-bottom:40px;
+      }
+
+  p { font-size: 25px;
+    font-weight:400;
+    text-align: left;
+  line-height: 35.5px;
+  margin-left:5%;
+  margin-right:5%;}
+
+  /* IMAGES */
+
+img {max-width:100%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+
+.iphonewallpapersimg1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "wallpaperssketch iphonewallpapers1 iphonewallpapers2";
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.wallpaperssketch img{
+  margin-left: -10%;
+}
+
+.iphonewallpapers1 img {
+  margin-left: -5%;
+}
+
+
+.iphonewallpapers2 img {
+  margin-right: -20%;
+}
+
+.iphonewallpapers4 img {
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.iphonewallpapers5 {
+  display:  center;
+  max-width: 50%;
+  margin-left: 25%;
+}
+
+a {font-size: 30px;
+font-weight:400;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+color: #404040;
+text-decoration: none;}
+
+a:hover {
+  color: #DCBF7B;
+  text-decoration: none;
+}
+
+.makecentered {
+  margin-left: 30%;
+}
