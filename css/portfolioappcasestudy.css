@@ -150,6 +150,41 @@ img {max-width:100%;
   margin-left: 25%;
 }
 
+.overlay0 {
+  position: absolute;
+  top: 9.7%;
+  bottom: 0;
+  left: 20%;
+  right: 0;
+  height: 89.3%;
+  width:90%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #D8D8D8;
+}
+
+.app{
+  position: relative;
+  max-width: 100%;
+}
+.app:hover .overlay0 {
+  opacity: 0.9;
+  transition: all 0.3s ease-in-out;
+box-shadow: 5px 5px 20px;
+}
+
+.text0 {
+  color: #404040;
+  font-size: 35px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 a {font-size: 30px;
 font-weight:400;
 text-align: center;
