@@ -117,73 +117,74 @@ img {max-width:100%;
   margin-bottom: 20%;
 }
 
-.iphonewallpapersimg1 {
+.appscreens {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "wallpaperssketch iphonewallpapers1 iphonewallpapers2";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "app1 app2 app3 app4";
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.wallpaperssketch img{
+.app1 img{
   margin-left: -10%;
 }
 
-.iphonewallpapers1 img {
+.app2 img {
   margin-left: -5%;
 }
 
 
-.iphonewallpapers2 img {
-  margin-right: -20%;
+.app3 img {
+  margin-right: -10%;
 }
 
-.iphonewallpapers4 img {
-  margin-left: 25%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.app4 img {
+  margin-left: 5%;
 }
 
-.iphonewallpapers5 {
-  display:  center;
-  max-width: 50%;
-  margin-left: 25%;
+.appscreens2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "app6 app7 app8";
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.overlay0 {
-  position: absolute;
-  top: 9.7%;
-  bottom: 0;
-  left: 20%;
-  right: 0;
-  height: 89.3%;
-  width:90%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #D8D8D8;
+.app6 img {
+  margin-left: -5%;
 }
 
-.app{
-  position: relative;
-  max-width: 100%;
-}
-.app:hover .overlay0 {
-  opacity: 0.9;
-  transition: all 0.3s ease-in-out;
-box-shadow: 5px 5px 20px;
+.app7 img {
+  margin-left: 0%;
 }
 
-.text0 {
-  color: #404040;
-  font-size: 35px;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+.app8 img {
+  margin-left: 5%;
+}
+
+
+.bottom {
   text-align: center;
+margin-top: 5%;
+font-size: 30px;
+font-weight:400;
 }
+
+.app img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
+  margin-top: 5%;
+}
+
+.app img:hover {
+  transition: all 0.3s ease-in-out;
+  transform:scale(1.04);
+  box-shadow: 5px 5px 20px;
+opacity: 0.8;
+color: #FAFAFA}
+
 
 a {font-size: 30px;
 font-weight:400;
@@ -199,5 +200,6 @@ a:hover {
 }
 
 .makecentered {
-  margin-left: 30%;
+  text-align: center;
+  margin-top: -15%;
 }
