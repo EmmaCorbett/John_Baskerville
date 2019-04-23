@@ -42,4 +42,4 @@
 [My Travel App](https://emmacorbett.github.io/john_baskerville/portfolio-app-casestudy.html) Added first web page (Sunday 21st April)
 
 ## Laptop Study
-[My Laptop Backgrounds](https://emmacorbett.github.io/john_baskerville/portfolio-wallpapers-casestudy.html) Added first web page (Tuesday 23rd April)
+[My Laptop Backgrounds](https://emmacorbett.github.io/john_baskerville/portfolio-laptop-casestudy.html) Added first web page (Tuesday 23rd April)
