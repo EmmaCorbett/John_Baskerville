@@ -117,29 +117,25 @@ img {max-width:100%;
   margin-bottom: 20%;
 }
 
-.appscreens {
+.laptopscreens {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas: "app1 app2 app3 app4";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "laptop1 laptop2 laptop3";
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.app1 img{
+.laptop1 img{
   margin-left: -10%;
 }
 
-.app2 img {
+.laptop2 img {
   margin-left: -5%;
 }
 
 
-.app3 img {
+.laptop3 img {
   margin-right: -10%;
-}
-
-.app4 img {
-  margin-left: 5%;
 }
 
 .appscreens2 {
