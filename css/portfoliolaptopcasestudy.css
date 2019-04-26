@@ -138,7 +138,7 @@ img {max-width:100%;
   margin-right: -10%;
 }
 
-.laptopcreens2 {
+.laptopscreens2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "laptop4 laptop5";
@@ -147,13 +147,22 @@ img {max-width:100%;
 }
 
 .laptop4 img {
-  margin-left: -5%;
+  margin-left: 0%;
+  max-width: 97%;
 }
 
 .laptop5 img {
-  margin-left: 0%;
+  margin-left: 5%;
+  max-width: 100%;
 }
 
+.finalimgscreens{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ margin-top: 5%;
+}
 
 .bottom {
   text-align: center;
@@ -189,9 +198,12 @@ text-decoration: none;}
 a:hover {
   color: #DCBF7B;
   text-decoration: none;
+  font-weight: 400;
 }
 
 .makecentered {
   text-align: center;
   margin-top: -15%;
+  font-weight: 300;
+  color: #404040;
 }
