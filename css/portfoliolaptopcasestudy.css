@@ -138,24 +138,20 @@ img {max-width:100%;
   margin-right: -10%;
 }
 
-.appscreens2 {
+.laptopcreens2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "app6 app7 app8";
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "laptop4 laptop5";
   margin-left: 10%;
   margin-right: 10%;
 }
 
-.app6 img {
+.laptop4 img {
   margin-left: -5%;
 }
 
-.app7 img {
+.laptop5 img {
   margin-left: 0%;
-}
-
-.app8 img {
-  margin-left: 5%;
 }
 
 
