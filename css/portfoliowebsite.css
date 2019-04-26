@@ -5,7 +5,6 @@
   margin: 0;
   font-size:30px;
   line-height: 1em;
-
   }
 
 #belfastcitybackground {
@@ -14,7 +13,10 @@
         background-position: -4% -4%;
   }
 
-html {scroll-behavior: smooth;}
+html {
+    scroll-behavior: smooth;
+  }
+
 
 /*----- HOME PAGE-----*/
 body {
@@ -305,11 +307,11 @@ box-shadow: 5px 5px 20px;
 
 .overlay2 {
   position: absolute;
-  top: 10.5%;
+  top: 10.4%;
   bottom: 0;
   left: 10%;
   right: 0;
-  height: 88.7%;
+  height: 88.4%;
   width:79.1%;
   opacity: 0;
   transition: .5s ease;
@@ -369,12 +371,12 @@ opacity: 0.8;}
 
 .overlay3 {
   position: absolute;
-  top: 10.2%;
+  top: 10.1%;
   bottom: 0;
   left: 20%;
   right: 0;
   height: 88.5%;
-  width:73.3%;
+  width:73.4%;
   opacity: 0;
   transition: .5s ease;
   background-color: #D8D8D8;
@@ -434,11 +436,11 @@ opacity: 0.8;}
 
 .overlay4 {
   position: absolute;
-  top: 10.2%;
+  top: 10.1%;
   left: 13%;
   right: 0;
-  height: 88.6%;
-  width:73.3%;
+  height: 88.7%;
+  width:73.4%;
   opacity: 0;
   transition: .5s ease;
   background-color: #D8D8D8;
