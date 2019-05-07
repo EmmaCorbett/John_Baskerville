@@ -30,7 +30,7 @@
 [Designer Essay](https://emmacorbett.github.io/john_baskerville/designer_essay.html) Added first html page (Thursday 29th November 2018)
 
 ## Portfolio website
-[Portfolio Website](https://emmacorbett.github.io/john_baskerville/portfoliowebsiteorigonal.html) Added first web page (Wednesday 27th March)
+[Portfolio Website](https://emmacorbett.github.io/john_baskerville/portfoliowebsiteORIGONAL.html) Added first web page (Wednesday 27th March)
 
 ## Branding myself
 [Branding Myself](https://emmacorbett.github.io/john_baskerville/portfolio-branding-casestudy.html) Added first web page (Wednesday 10th April)
